@@ -1,0 +1,35 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body ">
+            <div class="Hire-me text-center">
+            <i class="fab fa-hire-a-helper fa-5x"></i>
+            
+                <p>HIRE-<span>ME</span></p>
+            </div>
+            
+            <% jobs.forEach(function(job) { %>
+                <div class=" card card-body ">
+                    <h1 class="text-center">
+                        <%= job.post %>
+                    </h1>
+                    <h5>Description</h5><p><%= job.responsibilities %></p>
+
+                    <h5>Salary</h5><p><%= job.nov %> tk.</p>
+
+                    <h5>Deadline</h5><p><%= job.deadline %></p>
+
+                    
+                    <a class="btn btn-raised btn-danger" href="/employee/apply/<%= job.id %>">Apply</a></td> 
+
+                    <!-- <form method="DELETE" action="/:id" class="button-group ">                
+                        <button id="edit" name="button" value="delete" class="btn btn-secondary">Edit</button>               
+                       <button id="delete" name="button" value="cancel" class="btn btn-primary">Delete</button>           
+                    </div> -->
+
+                   
+                    
+                </div>
+            <% }) %>
+        </div>
+        </div>
+        </div>

@@ -1,0 +1,9 @@
+
+<% if(user.userType==="company"){ %> 
+    <% include ./partials/companyDashboard %>
+<% } %>
+<%if(user.userType==="employee"){ %> 
+    <% include ./partials/employeeDashboard %>
+<% } %>
+
+
