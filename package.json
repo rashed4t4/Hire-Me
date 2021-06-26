@@ -1,0 +1,19 @@
+{
+  "name": "hire-me",
+  "version": "1.0.0",
+  "description": "Online job portal using html, bootstrap, node.js, express, mongodb ....",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashed4t4/Hire-Me.git"
+  },
+  "author": "Rashedul Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashed4t4/Hire-Me/issues"
+  },
+  "homepage": "https://github.com/rashed4t4/Hire-Me#readme"
+}
